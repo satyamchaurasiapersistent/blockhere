@@ -7,18 +7,18 @@ logging:
 
 cxflow:
   #zip-exclude: .*\.PNG
-  bug-tracker: JIRA
+  bug-tracker: GitLab
   bug-tracker-impl:
     # - Azure
     # - Csv
     # - CxXml
      #- GitHub
-    # - GitLab
+     - GitLab
     #  - GitLabDashboard
     # - GitLab
     # - Rally
     # - Json
-     -JIRA
+    # -JIRA
     # - SonarQube
     # -GITHUBPULL
   branches:
