@@ -1,4 +1,4 @@
-EXIT_CODE=grep 'Finished with exit code:' cx-flow.log | tail -1 |sed 's/.*://'
+EXIT_CODE=$(grep 'Finished with exit code:' cx-flow.log | tail -1 |sed 's/.*: //')
 echo $EXIT_CODE
 if [ $EXIT_CODE != 0 ]
 then
