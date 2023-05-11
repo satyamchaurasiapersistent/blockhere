@@ -498,4 +498,4 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
 
-2023-04-17 13:12:07.841  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Finished with exit code: 10
+2023-04-17 13:12:07.841  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Finished with exit code: 0
