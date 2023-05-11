@@ -1,0 +1,501 @@
+2023-04-17 13:05:15.164  INFO 23960 --- [main] com.checkmarx.flow.CxFlowApplication     : Starting CxFlowApplication using Java 1.8.0-332 on SatyamC-LT1 with PID 23960 (C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx-flow-1.6.40.jar started by satyamc in C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs)
+2023-04-17 13:05:15.178  INFO 23960 --- [main] com.checkmarx.flow.CxFlowApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 13:05:19.220  INFO 23960 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-04-17 13:05:19.379  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-04-17 13:05:19.382  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-04-17 13:05:19.383  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:05:19.384  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-04-17 13:05:19.384  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-04-17 13:05:19.384  INFO 23960 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'file [C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml]' via location 'C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:05:19.578  INFO 23960 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-04-17 13:05:20.145  INFO 23960 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-04-17 13:05:20.149  INFO 23960 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-04-17 13:05:24.280  INFO 23960 --- [main] o.s.ws.soap.saaj.SaajSoapMessageFactory  : Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-04-17 13:05:25.459  WARN 23960 --- [main] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2023-04-17 13:05:27.484  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : =======BUILD INFO=======
+2023-04-17 13:05:27.485  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : Version: cx-flow-1.6.40
+2023-04-17 13:05:27.487  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : Time: 2023-04-17T07:32:43.313Z
+2023-04-17 13:05:27.487  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : =======================
+2023-04-17 13:05:28.697  INFO 23960 --- [main] com.checkmarx.flow.CxFlowApplication     : Started CxFlowApplication in 18.468 seconds (JVM running for 20.001)
+2023-04-17 13:05:28.719  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : Using custom bean implementation  for bug tracking
+2023-04-17 13:05:28.819  INFO 23960 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:05:28.821  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : Executing scan process
+2023-04-17 13:05:29.043  INFO 23960 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:05:29.135  INFO 23960 --- [main] c.c.flow.service.ConfigurationOverrider  : The following properties were overridden by config-as-code file: {scan configuration=Default Configuration, application=Simply Vulnerable React, project=satyam-master, includeSources=false, team=/CxServer/satyamchaurasiapersistent, scan preset=High and Medium}
+2023-04-17 13:05:29.139  INFO 23960 --- [main] c.c.flow.service.ProjectNameGenerator    : Project name being used: satyam-master
+2023-04-17 13:05:29.142  INFO 23960 --- [main] com.checkmarx.flow.utils.ZipUtils        : Creating zip file C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.80db4144-d8c3-4741-a91f-6a7aad34221f.zip from contents of path C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Junkistan\Release\SCA_FALSE
+2023-04-17 13:05:29.716  INFO 23960 --- [main] com.checkmarx.flow.utils.ZipUtils        : Successfully created C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.80db4144-d8c3-4741-a91f-6a7aad34221f.zip 
+2023-04-17 13:05:29.724  INFO 23960 --- [main] c.c.f.sastscanning.ScanRequestConverter  : Overriding team with /CxServer
+2023-04-17 13:05:29.730  INFO 23960 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:05:32.243  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving Cx teams
+2023-04-17 13:05:32.684  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Found team /CxServer with ID 1
+2023-04-17 13:05:32.957  INFO 23960 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : Checking if there is any existing scan for Project: -1
+2023-04-17 13:05:33.350  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : No scans in the queue that are in progress
+2023-04-17 13:05:33.351  INFO 23960 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : ----------existingScanId---------: -1
+2023-04-17 13:05:33.353  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Creating scan...
+2023-04-17 13:05:33.562  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Creating Project satyam-master for ownerId 1
+2023-04-17 13:05:33.789  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx presets
+2023-04-17 13:05:33.977  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found preset 'High and Medium' with ID 3
+2023-04-17 13:05:33.978  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx engineConfigurations
+2023-04-17 13:05:34.158  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found xml/engine configuration Default Configuration with ID 1
+2023-04-17 13:05:34.159  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving ScanSettings for project Id 295
+2023-04-17 13:05:34.349  INFO 23960 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Creating ScanSettings for project Id 295
+2023-04-17 13:05:34.557  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Updating Project folder and file exclusion details for project Id 295
+2023-04-17 13:05:34.737  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Updating Source details for project Id 295
+2023-04-17 13:05:36.529  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Scan will be Full Scan
+2023-04-17 13:05:36.533  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Creating Scan for project Id 295
+2023-04-17 13:05:36.727  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Scan created with Id 1004530 for project Id 295
+2023-04-17 13:05:36.789  INFO 23960 --- [main] jsonLogger                               : 
+2023-04-17 13:06:58.497  INFO 23960 --- [main] jsonLogger                               : 
+2023-04-17 13:06:58.498  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Creating report for xml Id 1004530
+2023-04-17 13:06:58.692  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Report with Id 5889 created
+2023-04-17 13:07:03.707  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report status of report Id 5889
+2023-04-17 13:07:04.918  INFO 23960 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx for SOAP token https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:07:05.161  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report contents of report Id 5889 in XML format
+2023-04-17 13:07:05.348  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Report downloaded for report Id 5889
+2023-04-17 13:07:05.509  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Fetching Scan data for Id 1004530
+2023-04-17 13:07:05.695  INFO 23960 --- [main] com.checkmarx.sdk.service.CxService      : Fetching custom fields from project ID 295
+2023-04-17 13:07:06.096  INFO 23960 --- [main] c.checkmarx.flow.service.ResultsService  : Issue tracking is custom bean implementation
+2023-04-17 13:07:06.115  INFO 23960 --- [main] c.c.flow.custom.GitLabIssueTracker       : Initializing GitLab processing
+2023-04-17 13:07:06.124  INFO 23960 --- [main] c.c.flow.service.CodeBashingService      : not using CodeBashing lessons integration - one or more of the mandatory properties is missing
+2023-04-17 13:07:06.126  INFO 23960 --- [main] com.checkmarx.flow.service.IssueService  : Processing Issues with custom bean GitLab
+2023-04-17 13:07:06.126  INFO 23960 --- [main] c.c.flow.custom.GitLabIssueTracker       : Executing getIssues GitLab API call
+2023-04-17 13:07:07.372 ERROR 23960 --- [main] c.c.flow.custom.GitLabIssueTracker       : Error occurred while getting Gitlab issue. http error 404 NOT_FOUND 
+
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "404"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:178)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$9ea119d.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$a4d47c6f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:07:07.377 ERROR 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : An error occurred while processing request in commandLineRunner 
+
+java.lang.NullPointerException: null
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:183)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$9ea119d.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$a4d47c6f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:07:07.385  INFO 23960 --- [main] com.checkmarx.flow.CxFlowRunner          : Finished with exit code: 8
+2023-04-17 13:07:39.658  INFO 12600 --- [main] com.checkmarx.flow.CxFlowApplication     : Starting CxFlowApplication using Java 1.8.0-332 on SatyamC-LT1 with PID 12600 (C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx-flow-1.6.40.jar started by satyamc in C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs)
+2023-04-17 13:07:39.672  INFO 12600 --- [main] com.checkmarx.flow.CxFlowApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 13:07:42.809  INFO 12600 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-04-17 13:07:42.944  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-04-17 13:07:42.948  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-04-17 13:07:42.948  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:07:42.949  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-04-17 13:07:42.950  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-04-17 13:07:42.950  INFO 12600 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'file [C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml]' via location 'C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:07:43.143  INFO 12600 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-04-17 13:07:43.602  INFO 12600 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-04-17 13:07:43.608  INFO 12600 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-04-17 13:07:47.173  INFO 12600 --- [main] o.s.ws.soap.saaj.SaajSoapMessageFactory  : Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-04-17 13:07:48.223  WARN 12600 --- [main] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2023-04-17 13:07:50.222  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : =======BUILD INFO=======
+2023-04-17 13:07:50.223  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : Version: cx-flow-1.6.40
+2023-04-17 13:07:50.225  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : Time: 2023-04-17T07:32:43.313Z
+2023-04-17 13:07:50.225  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : =======================
+2023-04-17 13:07:51.333  INFO 12600 --- [main] com.checkmarx.flow.CxFlowApplication     : Started CxFlowApplication in 16.287 seconds (JVM running for 18.614)
+2023-04-17 13:07:51.352  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : Using custom bean implementation  for bug tracking
+2023-04-17 13:07:51.452  INFO 12600 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:07:51.454  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : Executing scan process
+2023-04-17 13:07:51.646  INFO 12600 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:07:51.716  INFO 12600 --- [main] c.c.flow.service.ConfigurationOverrider  : The following properties were overridden by config-as-code file: {scan configuration=Default Configuration, application=Simply Vulnerable React, project=satyam-master, includeSources=false, team=/CxServer/satyamchaurasiapersistent, scan preset=High and Medium}
+2023-04-17 13:07:51.720  INFO 12600 --- [main] c.c.flow.service.ProjectNameGenerator    : Project name being used: satyam-master
+2023-04-17 13:07:51.722  INFO 12600 --- [main] com.checkmarx.flow.utils.ZipUtils        : Creating zip file C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.d1a61ea6-306f-4592-a8e2-3f760e65346f.zip from contents of path C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Junkistan\Release\SCA_FALSE
+2023-04-17 13:07:52.124  INFO 12600 --- [main] com.checkmarx.flow.utils.ZipUtils        : Successfully created C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.d1a61ea6-306f-4592-a8e2-3f760e65346f.zip 
+2023-04-17 13:07:52.130  INFO 12600 --- [main] c.c.f.sastscanning.ScanRequestConverter  : Overriding team with /CxServer
+2023-04-17 13:07:52.137  INFO 12600 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:07:53.881  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving Cx teams
+2023-04-17 13:07:54.106  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Found team /CxServer with ID 1
+2023-04-17 13:07:54.308  INFO 12600 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : Checking if there is any existing scan for Project: 295
+2023-04-17 13:07:54.509  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : No scans in the queue that are in progress
+2023-04-17 13:07:54.509  INFO 12600 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : ----------existingScanId---------: -1
+2023-04-17 13:07:54.510  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Creating scan...
+2023-04-17 13:07:54.510  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx presets
+2023-04-17 13:07:54.711  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found preset 'High and Medium' with ID 3
+2023-04-17 13:07:54.712  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx engineConfigurations
+2023-04-17 13:07:54.907  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found xml/engine configuration Default Configuration with ID 1
+2023-04-17 13:07:54.907  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving ScanSettings for project Id 295
+2023-04-17 13:07:55.113  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Custom Task Name is  gmail
+2023-04-17 13:07:55.310  INFO 12600 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Creating ScanSettings for project Id 295
+2023-04-17 13:07:55.528  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Updating Project folder and file exclusion details for project Id 295
+2023-04-17 13:07:55.723  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Updating Source details for project Id 295
+2023-04-17 13:07:59.165  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Scan will be Full Scan
+2023-04-17 13:07:59.167  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Creating Scan for project Id 295
+2023-04-17 13:07:59.366  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Scan created with Id 1004531 for project Id 295
+2023-04-17 13:07:59.416  INFO 12600 --- [main] jsonLogger                               : 
+2023-04-17 13:08:19.863  INFO 12600 --- [main] jsonLogger                               : 
+2023-04-17 13:08:19.864  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Creating report for xml Id 1004531
+2023-04-17 13:08:20.070  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Report with Id 5890 created
+2023-04-17 13:08:25.084  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report status of report Id 5890
+2023-04-17 13:08:26.357  INFO 12600 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx for SOAP token https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:08:28.303  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report contents of report Id 5890 in XML format
+2023-04-17 13:08:28.608  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Report downloaded for report Id 5890
+2023-04-17 13:08:29.000  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Fetching Scan data for Id 1004531
+2023-04-17 13:08:29.405  INFO 12600 --- [main] com.checkmarx.sdk.service.CxService      : Fetching custom fields from project ID 295
+2023-04-17 13:08:30.023  INFO 12600 --- [main] c.checkmarx.flow.service.ResultsService  : Issue tracking is custom bean implementation
+2023-04-17 13:08:30.187  INFO 12600 --- [main] c.c.flow.custom.GitLabIssueTracker       : Initializing GitLab processing
+2023-04-17 13:08:30.189  INFO 12600 --- [main] c.c.flow.service.CodeBashingService      : not using CodeBashing lessons integration - one or more of the mandatory properties is missing
+2023-04-17 13:08:30.191  INFO 12600 --- [main] com.checkmarx.flow.service.IssueService  : Processing Issues with custom bean GitLab
+2023-04-17 13:08:30.194  INFO 12600 --- [main] c.c.flow.custom.GitLabIssueTracker       : Executing getIssues GitLab API call
+2023-04-17 13:08:31.351 ERROR 12600 --- [main] c.c.flow.custom.GitLabIssueTracker       : Error occurred while getting Gitlab issue. http error 404 NOT_FOUND 
+
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "404"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:178)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$29355901.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$c27c023f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:08:31.355 ERROR 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : An error occurred while processing request in commandLineRunner 
+
+java.lang.NullPointerException: null
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:183)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$29355901.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$c27c023f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:08:31.370  INFO 12600 --- [main] com.checkmarx.flow.CxFlowRunner          : Finished with exit code: 9
+2023-04-17 13:09:41.994  INFO 19512 --- [main] com.checkmarx.flow.CxFlowApplication     : Starting CxFlowApplication using Java 1.8.0-332 on SatyamC-LT1 with PID 19512 (C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx-flow-1.6.40.jar started by satyamc in C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs)
+2023-04-17 13:09:42.010  INFO 19512 --- [main] com.checkmarx.flow.CxFlowApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 13:09:45.282  INFO 19512 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-04-17 13:09:45.396  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-04-17 13:09:45.400  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-04-17 13:09:45.401  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:09:45.401  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-04-17 13:09:45.402  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-04-17 13:09:45.402  INFO 19512 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'file [C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml]' via location 'C:\Users\satyamc\OneDrive - Checkmarx\Desktop\application.yml' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-04-17 13:09:45.537  INFO 19512 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-04-17 13:09:45.930  INFO 19512 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-04-17 13:09:45.935  INFO 19512 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-04-17 13:09:49.349  INFO 19512 --- [main] o.s.ws.soap.saaj.SaajSoapMessageFactory  : Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-04-17 13:09:50.426  WARN 19512 --- [main] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2023-04-17 13:09:52.431  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : =======BUILD INFO=======
+2023-04-17 13:09:52.431  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Version: cx-flow-1.6.40
+2023-04-17 13:09:52.434  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Time: 2023-04-17T07:32:43.313Z
+2023-04-17 13:09:52.434  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : =======================
+2023-04-17 13:09:53.540  INFO 19512 --- [main] com.checkmarx.flow.CxFlowApplication     : Started CxFlowApplication in 17.087 seconds (JVM running for 18.721)
+2023-04-17 13:09:53.560  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Using custom bean implementation  for bug tracking
+2023-04-17 13:09:53.659  INFO 19512 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:09:53.661  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Executing scan process
+2023-04-17 13:09:53.853  INFO 19512 --- [main] c.c.flow.service.ScaFilterFactory        : Initializing SCA filters.
+2023-04-17 13:09:53.912  INFO 19512 --- [main] c.c.flow.service.ConfigurationOverrider  : The following properties were overridden by config-as-code file: {scan configuration=Default Configuration, application=Simply Vulnerable React, project=satyam-master, includeSources=false, team=/CxServer/satyamchaurasiapersistent, scan preset=High and Medium}
+2023-04-17 13:09:53.916  INFO 19512 --- [main] c.c.flow.service.ProjectNameGenerator    : Project name being used: satyam-master
+2023-04-17 13:09:53.918  INFO 19512 --- [main] com.checkmarx.flow.utils.ZipUtils        : Creating zip file C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.544bc0cb-ffe9-49c9-b4b3-53194bdc745c.zip from contents of path C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Junkistan\Release\SCA_FALSE
+2023-04-17 13:09:54.262  INFO 19512 --- [main] com.checkmarx.flow.utils.ZipUtils        : Successfully created C:\Users\satyamc\OneDrive - Checkmarx\Desktop\Release 1.6.40\pr-CXFLW-662-prenpostactionissue\cx-flow\build\libs\cx.544bc0cb-ffe9-49c9-b4b3-53194bdc745c.zip 
+2023-04-17 13:09:54.269  INFO 19512 --- [main] c.c.f.sastscanning.ScanRequestConverter  : Overriding team with /CxServer
+2023-04-17 13:09:54.274  INFO 19512 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:09:56.442  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving Cx teams
+2023-04-17 13:09:56.628  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Found team /CxServer with ID 1
+2023-04-17 13:09:57.048  INFO 19512 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : Checking if there is any existing scan for Project: -1
+2023-04-17 13:09:57.228  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : No scans in the queue that are in progress
+2023-04-17 13:09:57.229  INFO 19512 --- [main] c.c.f.s.AbstractVulnerabilityScanner     : ----------existingScanId---------: -1
+2023-04-17 13:09:57.230  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Creating scan...
+2023-04-17 13:09:57.807  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Creating Project satyam-master for ownerId 1
+2023-04-17 13:10:01.956  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx presets
+2023-04-17 13:10:02.308  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found preset 'High and Medium' with ID 3
+2023-04-17 13:10:02.813  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving Cx engineConfigurations
+2023-04-17 13:10:03.330  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Found xml/engine configuration Default Configuration with ID 1
+2023-04-17 13:10:05.089  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Retrieving ScanSettings for project Id 296
+2023-04-17 13:10:29.793  INFO 19512 --- [main] c.c.sdk.service.ScanSettingsClientImpl   : Creating ScanSettings for project Id 296
+2023-04-17 13:10:31.643  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Updating Project folder and file exclusion details for project Id 296
+2023-04-17 13:10:34.134  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Updating Source details for project Id 296
+2023-04-17 13:10:36.031  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Scan will be Full Scan
+2023-04-17 13:10:36.034  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Creating Scan for project Id 296
+2023-04-17 13:10:36.225  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Scan created with Id 1004532 for project Id 296
+2023-04-17 13:10:36.272  INFO 19512 --- [main] jsonLogger                               : 
+2023-04-17 13:11:57.885  INFO 19512 --- [main] jsonLogger                               : 
+2023-04-17 13:11:57.887  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Creating report for xml Id 1004532
+2023-04-17 13:11:58.316  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Report with Id 5891 created
+2023-04-17 13:12:03.331  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report status of report Id 5891
+2023-04-17 13:12:04.538  INFO 19512 --- [main] com.checkmarx.sdk.service.CxAuthService  : Logging into Checkmarx for SOAP token https://sast94.cxquality.com/cxrestapi/auth/identity/connect/token
+2023-04-17 13:12:05.742  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Retrieving report contents of report Id 5891 in XML format
+2023-04-17 13:12:05.926  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Report downloaded for report Id 5891
+2023-04-17 13:12:06.009  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Fetching Scan data for Id 1004532
+2023-04-17 13:12:06.190  INFO 19512 --- [main] com.checkmarx.sdk.service.CxService      : Fetching custom fields from project ID 296
+2023-04-17 13:12:06.560  INFO 19512 --- [main] c.checkmarx.flow.service.ResultsService  : Issue tracking is custom bean implementation
+2023-04-17 13:12:06.573  INFO 19512 --- [main] c.c.flow.custom.GitLabIssueTracker       : Initializing GitLab processing
+2023-04-17 13:12:06.574  INFO 19512 --- [main] c.c.flow.service.CodeBashingService      : not using CodeBashing lessons integration - one or more of the mandatory properties is missing
+2023-04-17 13:12:06.575  INFO 19512 --- [main] com.checkmarx.flow.service.IssueService  : Processing Issues with custom bean GitLab
+2023-04-17 13:12:06.575  INFO 19512 --- [main] c.c.flow.custom.GitLabIssueTracker       : Executing getIssues GitLab API call
+2023-04-17 13:12:07.832 ERROR 19512 --- [main] c.c.flow.custom.GitLabIssueTracker       : Error occurred while getting Gitlab issue. http error 404 NOT_FOUND 
+
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "404"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:178)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$9ea119d.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$a4d47c6f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:12:07.835 ERROR 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : An error occurred while processing request in commandLineRunner 
+
+java.lang.NullPointerException: null
+	at com.checkmarx.flow.custom.GitLabIssueTracker.getIssues(GitLabIssueTracker.java:183)
+	at com.checkmarx.flow.service.IssueService.process(IssueService.java:107)
+	at com.checkmarx.flow.service.IssueService$$FastClassBySpringCGLIB$$bcade21c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.IssueService$$EnhancerBySpringCGLIB$$9ea119d.process(<generated>)
+	at com.checkmarx.flow.service.ResultsService.handleCustomIssueTracker(ResultsService.java:219)
+	at com.checkmarx.flow.service.ResultsService.processResults(ResultsService.java:172)
+	at com.checkmarx.flow.service.ResultsService$$FastClassBySpringCGLIB$$2328645f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.checkmarx.flow.service.ResultsService$$EnhancerBySpringCGLIB$$a4d47c6f.processResults(<generated>)
+	at com.checkmarx.flow.CxFlowRunner.processResults(CxFlowRunner.java:653)
+	at com.checkmarx.flow.CxFlowRunner.scanCommon(CxFlowRunner.java:630)
+	at com.checkmarx.flow.CxFlowRunner.scanLocalPath(CxFlowRunner.java:606)
+	at com.checkmarx.flow.CxFlowRunner.commandLineRunner(CxFlowRunner.java:482)
+	at com.checkmarx.flow.CxFlowRunner.run(CxFlowRunner.java:94)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.checkmarx.flow.CxFlowApplication.main(CxFlowApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2023-04-17 13:12:07.841  INFO 19512 --- [main] com.checkmarx.flow.CxFlowRunner          : Finished with exit code: 10
